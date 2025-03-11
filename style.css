@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imageContainer{
+    height: 80vh;
+    width: 70vw;
+    border: 1px dotted brown;
+    border-radius: 20px;
+}
+
+.btn{
+    background-color: cadetblue;
+    color: azure;
+    border: none;
+    padding: 15px 25px;
+    font-size: 22px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: burlywood;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
